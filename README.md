@@ -1,6 +1,6 @@
 # Message Hub — Iteration 0
 
-> **Universal Communication Layer** decoupling human identity, functions, and interfaces across Web and Telegram.
+> **Universal Communication Layer** decoupling human identity, functions, and interfaces across Web.
 
 ---
 
