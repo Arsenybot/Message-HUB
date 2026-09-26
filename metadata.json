@@ -1,0 +1,6 @@
+{
+  "name": "Message Hub — Iteration 0",
+  "description": "Universal communication layer decoupling identity, functions, and interfaces across Web and Telegram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

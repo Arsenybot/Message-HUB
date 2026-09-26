@@ -1,0 +1,2728 @@
+{
+  "users": {
+    "usr_alpha_01": {
+      "user_id": "usr_alpha_01",
+      "display_name": "Alex Rivera (User A)",
+      "created_at": "2026-09-26T08:47:59.814Z"
+    },
+    "usr_beta_02": {
+      "user_id": "usr_beta_02",
+      "display_name": "Sam Chen (User B)",
+      "created_at": "2026-09-26T08:47:59.814Z"
+    },
+    "usr_mui67m5v_9e05503d": {
+      "user_id": "usr_mui67m5v_9e05503d",
+      "display_name": "Ольга",
+      "created_at": "2026-09-26T09:11:44.371Z",
+      "metadata": {}
+    },
+    "usr_mui7zndc_0434bd33": {
+      "user_id": "usr_mui7zndc_0434bd33",
+      "display_name": "Арсений",
+      "created_at": "2026-09-26T10:01:31.920Z",
+      "metadata": {}
+    }
+  },
+  "endpoints": {
+    "ep_web_usr_mui67m5v_9e05503d_25c86d": {
+      "id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "type": "web",
+      "external_id": "session_1790413904371_8e8dd0a3",
+      "display_name": "Ольга Web",
+      "status": "online",
+      "capabilities": [
+        "text",
+        "image",
+        "file",
+        "notification",
+        "interactive"
+      ],
+      "created_at": "2026-09-26T09:11:44.371Z",
+      "last_seen_at": "2026-09-26T09:12:14.035Z",
+      "metadata": {
+        "client_ip": "127.0.0.1"
+      }
+    },
+    "ep_web_usr_mui7zndc_0434bd33_2ac3cf": {
+      "id": "ep_web_usr_mui7zndc_0434bd33_2ac3cf",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "type": "web",
+      "external_id": "session_1790416891920_97e49364",
+      "display_name": "Арсений Web",
+      "status": "online",
+      "capabilities": [
+        "text",
+        "image",
+        "file",
+        "notification",
+        "interactive"
+      ],
+      "created_at": "2026-09-26T10:01:31.920Z",
+      "last_seen_at": "2026-09-26T10:01:31.920Z",
+      "metadata": {
+        "client_ip": "127.0.0.1"
+      }
+    },
+    "ep_web_usr_beta_02_b86dd8": {
+      "id": "ep_web_usr_beta_02_b86dd8",
+      "user_id": "usr_beta_02",
+      "type": "web",
+      "external_id": "session_1790420216588_2586f15b",
+      "display_name": "Sam Chen (User B) Web",
+      "status": "online",
+      "capabilities": [
+        "text",
+        "image",
+        "file",
+        "notification",
+        "interactive"
+      ],
+      "created_at": "2026-09-26T10:56:56.588Z",
+      "last_seen_at": "2026-09-26T11:08:56.855Z",
+      "metadata": {
+        "client_ip": "127.0.0.1"
+      }
+    },
+    "ep_web_usr_alpha_01_ac59a1": {
+      "id": "ep_web_usr_alpha_01_ac59a1",
+      "user_id": "usr_alpha_01",
+      "type": "web",
+      "external_id": "session_1790420944629_d78fce6e",
+      "display_name": "Alex Rivera (User A) Web",
+      "status": "online",
+      "capabilities": [
+        "text",
+        "image",
+        "file",
+        "notification",
+        "interactive"
+      ],
+      "created_at": "2026-09-26T11:09:04.629Z",
+      "last_seen_at": "2026-09-26T11:17:20.012Z",
+      "metadata": {
+        "client_ip": "127.0.0.1"
+      }
+    },
+    "ep_tg_bot_b_900432389": {
+      "id": "ep_tg_bot_b_900432389",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "type": "telegram",
+      "external_id": "900432389",
+      "display_name": "@arseniyblazh (BOT_B)",
+      "status": "online",
+      "capabilities": [
+        "text",
+        "image",
+        "file",
+        "voice",
+        "video",
+        "location",
+        "interactive"
+      ],
+      "created_at": "2026-09-26T11:17:08.223Z",
+      "last_seen_at": "2026-09-26T11:17:20.010Z",
+      "metadata": {
+        "bot_id": "bot_b",
+        "username": "arseniyblazh",
+        "first_name": "Арсений",
+        "telegram_user_id": 900432389
+      }
+    }
+  },
+  "conversations": {
+    "conv_alpha_beta": {
+      "conversation_id": "conv_alpha_beta",
+      "type": "direct",
+      "title": "Alex Rivera & Sam Chen",
+      "created_at": "2026-09-26T08:47:59.814Z",
+      "updated_at": "2026-09-26T11:08:56.855Z"
+    },
+    "conv_1790413912120_07bb3d": {
+      "conversation_id": "conv_1790413912120_07bb3d",
+      "type": "direct",
+      "title": "Alex Rivera (User A) & Ольга",
+      "created_at": "2026-09-26T09:11:52.120Z",
+      "updated_at": "2026-09-26T09:12:14.034Z"
+    },
+    "conv_1790421440011_ff559b": {
+      "conversation_id": "conv_1790421440011_ff559b",
+      "type": "direct",
+      "title": "Арсений & Alex Rivera (User A)",
+      "created_at": "2026-09-26T11:17:20.011Z",
+      "updated_at": "2026-09-26T11:17:20.011Z"
+    }
+  },
+  "conversation_members": [
+    {
+      "conversation_id": "conv_alpha_beta",
+      "user_id": "usr_alpha_01",
+      "joined_at": "2026-09-26T08:47:59.814Z"
+    },
+    {
+      "conversation_id": "conv_alpha_beta",
+      "user_id": "usr_beta_02",
+      "joined_at": "2026-09-26T08:47:59.814Z"
+    },
+    {
+      "conversation_id": "conv_1790413912120_07bb3d",
+      "user_id": "usr_alpha_01",
+      "joined_at": "2026-09-26T09:11:52.120Z"
+    },
+    {
+      "conversation_id": "conv_1790413912120_07bb3d",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "joined_at": "2026-09-26T09:11:52.120Z"
+    },
+    {
+      "conversation_id": "conv_1790421440011_ff559b",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "joined_at": "2026-09-26T11:17:20.011Z"
+    },
+    {
+      "conversation_id": "conv_1790421440011_ff559b",
+      "user_id": "usr_alpha_01",
+      "joined_at": "2026-09-26T11:17:20.011Z"
+    }
+  ],
+  "messages": {
+    "msg_1790412768743_975399ba": {
+      "message_id": "msg_1790412768743_975399ba",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T08:52:48.743Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790413623852_6e9dc3a6": {
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет, как дела",
+      "created_at": "2026-09-26T09:07:03.852Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790413644685_32bd3774": {
+      "message_id": "msg_1790413644685_32bd3774",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет, как дела",
+      "created_at": "2026-09-26T09:07:24.685Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790413934034_5c89ee39": {
+      "message_id": "msg_1790413934034_5c89ee39",
+      "conversation_id": "conv_1790413912120_07bb3d",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T09:12:14.034Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790413995973_5625bcb1": {
+      "message_id": "msg_1790413995973_5625bcb1",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_beta_02",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T09:13:15.973Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790415868193_9280f446": {
+      "message_id": "msg_1790415868193_9280f446",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T09:44:28.193Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790415880640_e73383b2": {
+      "message_id": "msg_1790415880640_e73383b2",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Hello!",
+      "created_at": "2026-09-26T09:44:40.640Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790416990983_d1460011": {
+      "message_id": "msg_1790416990983_d1460011",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет от Bot A через универсальный протокол!",
+      "created_at": "2026-09-26T10:03:10.983Z",
+      "metadata": {
+        "origin_endpoint_id": "ep_tg_bot_a_111111",
+        "origin_bot_id": "bot_a",
+        "origin_type": "telegram"
+      }
+    },
+    "msg_1790416998360_29f63747": {
+      "message_id": "msg_1790416998360_29f63747",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:03:18.360Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790417006761_8e879cfa": {
+      "message_id": "msg_1790417006761_8e879cfa",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:03:26.761Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790418660702_297eb4be": {
+      "message_id": "msg_1790418660702_297eb4be",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:31:00.702Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790418691141_4afb70e0": {
+      "message_id": "msg_1790418691141_4afb70e0",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:31:31.141Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790418739720_525f83b1": {
+      "message_id": "msg_1790418739720_525f83b1",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T10:32:19.720Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790419191632_3f787bd9": {
+      "message_id": "msg_1790419191632_3f787bd9",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:39:51.632Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790420028875_03c3edc4": {
+      "message_id": "msg_1790420028875_03c3edc4",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет от Bot A через универсальный протокол!",
+      "created_at": "2026-09-26T10:53:48.875Z",
+      "metadata": {
+        "origin_endpoint_id": "ep_tg_bot_a_111111",
+        "origin_bot_id": "bot_a",
+        "origin_type": "telegram"
+      }
+    },
+    "msg_1790420030881_719c7ef9": {
+      "message_id": "msg_1790420030881_719c7ef9",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T10:53:50.880Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790420147011_2b629742": {
+      "message_id": "msg_1790420147011_2b629742",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T10:55:47.011Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790420186522_bcfa2318": {
+      "message_id": "msg_1790420186522_bcfa2318",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Привет",
+      "created_at": "2026-09-26T10:56:26.522Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790420194149_9f05b7e8": {
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Пирвет",
+      "created_at": "2026-09-26T10:56:34.149Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790420936855_093fca9e": {
+      "message_id": "msg_1790420936855_093fca9e",
+      "conversation_id": "conv_alpha_beta",
+      "sender_user_id": "usr_alpha_01",
+      "content_type": "text",
+      "text": "Сообщение отправлено из Web Client в Core!",
+      "created_at": "2026-09-26T11:08:56.855Z",
+      "metadata": {
+        "origin": "web_client"
+      }
+    },
+    "msg_1790421440011_34875e48": {
+      "message_id": "msg_1790421440011_34875e48",
+      "conversation_id": "conv_1790421440011_ff559b",
+      "sender_user_id": "usr_mui7zndc_0434bd33",
+      "content_type": "text",
+      "text": "Привет из Telegram!",
+      "created_at": "2026-09-26T11:17:20.011Z",
+      "metadata": {
+        "origin_endpoint_id": "ep_tg_bot_b_900432389",
+        "origin_bot_id": "bot_b",
+        "origin_type": "telegram"
+      }
+    }
+  },
+  "deliveries": {
+    "delv_1790412768744_5838b3": {
+      "delivery_id": "delv_1790412768744_5838b3",
+      "message_id": "msg_1790412768743_975399ba",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T08:52:48.744Z",
+      "delivered_at": "2026-09-26T09:12:42.530Z",
+      "external_message_id": "web_ack_1790413962530"
+    },
+    "delv_1790413623853_857a77": {
+      "delivery_id": "delv_1790413623853_857a77",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:07:03.853Z",
+      "delivered_at": "2026-09-26T09:12:42.530Z",
+      "external_message_id": "web_ack_1790413962530"
+    },
+    "delv_1790413644685_85efc9": {
+      "delivery_id": "delv_1790413644685_85efc9",
+      "message_id": "msg_1790413644685_32bd3774",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:07:24.685Z",
+      "delivered_at": "2026-09-26T09:12:42.530Z",
+      "external_message_id": "web_ack_1790413962530"
+    },
+    "delv_1790413934034_257ee7": {
+      "delivery_id": "delv_1790413934034_257ee7",
+      "message_id": "msg_1790413934034_5c89ee39",
+      "endpoint_id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "recipient_user_id": "usr_mui67m5v_9e05503d",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:12:14.034Z",
+      "delivered_at": "2026-09-26T09:12:14.036Z",
+      "external_message_id": "web_ack_1790413934035"
+    },
+    "delv_1790413995973_cd2624": {
+      "delivery_id": "delv_1790413995973_cd2624",
+      "message_id": "msg_1790413995973_5625bcb1",
+      "endpoint_id": "ep_web_user_a",
+      "recipient_user_id": "usr_alpha_01",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:13:15.973Z",
+      "delivered_at": "2026-09-26T09:13:15.974Z",
+      "external_message_id": "web_ack_1790413995974"
+    },
+    "delv_1790415868194_b5f29c": {
+      "delivery_id": "delv_1790415868194_b5f29c",
+      "message_id": "msg_1790415868193_9280f446",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:44:28.194Z",
+      "delivered_at": "2026-09-26T09:44:28.194Z",
+      "external_message_id": "web_ack_1790415868194"
+    },
+    "delv_1790415880641_cd1d21": {
+      "delivery_id": "delv_1790415880641_cd1d21",
+      "message_id": "msg_1790415880640_e73383b2",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T09:44:40.641Z",
+      "delivered_at": "2026-09-26T09:44:40.641Z",
+      "external_message_id": "web_ack_1790415880641"
+    },
+    "delv_1790416990984_1aa865": {
+      "delivery_id": "delv_1790416990984_1aa865",
+      "message_id": "msg_1790416990983_d1460011",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:03:10.984Z",
+      "delivered_at": "2026-09-26T10:03:10.985Z",
+      "external_message_id": "web_ack_1790416990984"
+    },
+    "delv_1790416998361_5f88f2": {
+      "delivery_id": "delv_1790416998361_5f88f2",
+      "message_id": "msg_1790416998360_29f63747",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:03:18.361Z",
+      "delivered_at": "2026-09-26T10:03:18.361Z",
+      "external_message_id": "web_ack_1790416998361"
+    },
+    "delv_1790417006761_40578b": {
+      "delivery_id": "delv_1790417006761_40578b",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:03:26.761Z",
+      "delivered_at": "2026-09-26T10:03:26.761Z",
+      "external_message_id": "web_ack_1790417006761"
+    },
+    "delv_1790418660703_57ab4e": {
+      "delivery_id": "delv_1790418660703_57ab4e",
+      "message_id": "msg_1790418660702_297eb4be",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:31:00.703Z",
+      "delivered_at": "2026-09-26T10:31:00.703Z",
+      "external_message_id": "web_ack_1790418660703"
+    },
+    "delv_1790418691141_cd147f": {
+      "delivery_id": "delv_1790418691141_cd147f",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:31:31.141Z",
+      "delivered_at": "2026-09-26T10:31:31.142Z",
+      "external_message_id": "web_ack_1790418691141"
+    },
+    "delv_1790418739720_6a0bea": {
+      "delivery_id": "delv_1790418739720_6a0bea",
+      "message_id": "msg_1790418739720_525f83b1",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:32:19.720Z",
+      "delivered_at": "2026-09-26T10:32:19.720Z",
+      "external_message_id": "web_ack_1790418739720"
+    },
+    "delv_1790419191632_616006": {
+      "delivery_id": "delv_1790419191632_616006",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:39:51.632Z",
+      "delivered_at": "2026-09-26T10:39:51.633Z",
+      "external_message_id": "web_ack_1790419191632"
+    },
+    "delv_1790420028875_9c4054": {
+      "delivery_id": "delv_1790420028875_9c4054",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:53:48.875Z",
+      "delivered_at": "2026-09-26T10:53:48.876Z",
+      "external_message_id": "web_ack_1790420028876"
+    },
+    "delv_1790420030881_b1e57a": {
+      "delivery_id": "delv_1790420030881_b1e57a",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:53:50.881Z",
+      "delivered_at": "2026-09-26T10:53:50.881Z",
+      "external_message_id": "web_ack_1790420030881"
+    },
+    "delv_1790420147011_683848": {
+      "delivery_id": "delv_1790420147011_683848",
+      "message_id": "msg_1790420147011_2b629742",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:55:47.011Z",
+      "delivered_at": "2026-09-26T10:55:47.012Z",
+      "external_message_id": "web_ack_1790420147012"
+    },
+    "delv_1790420186522_b40fba": {
+      "delivery_id": "delv_1790420186522_b40fba",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:56:26.522Z",
+      "delivered_at": "2026-09-26T10:56:26.522Z",
+      "external_message_id": "web_ack_1790420186522"
+    },
+    "delv_1790420194150_4c4bce": {
+      "delivery_id": "delv_1790420194150_4c4bce",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "endpoint_id": "ep_web_user_b",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T10:56:34.150Z",
+      "delivered_at": "2026-09-26T10:56:34.150Z",
+      "external_message_id": "web_ack_1790420194150"
+    },
+    "delv_1790420936855_215c63": {
+      "delivery_id": "delv_1790420936855_215c63",
+      "message_id": "msg_1790420936855_093fca9e",
+      "endpoint_id": "ep_web_usr_beta_02_b86dd8",
+      "recipient_user_id": "usr_beta_02",
+      "status": "delivered",
+      "created_at": "2026-09-26T11:08:56.855Z",
+      "delivered_at": "2026-09-26T11:08:56.856Z",
+      "external_message_id": "web_ack_1790420936855"
+    },
+    "delv_1790421440012_f12cb1": {
+      "delivery_id": "delv_1790421440012_f12cb1",
+      "message_id": "msg_1790421440011_34875e48",
+      "endpoint_id": "ep_web_usr_alpha_01_ac59a1",
+      "recipient_user_id": "usr_alpha_01",
+      "status": "delivered",
+      "created_at": "2026-09-26T11:17:20.012Z",
+      "delivered_at": "2026-09-26T11:17:20.013Z",
+      "external_message_id": "web_ack_1790421440013"
+    }
+  },
+  "pairing_codes": {
+    "MH-6P6N7": {
+      "code": "MH-6P6N7",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "created_at": "2026-09-26T11:16:54.621Z",
+      "expires_at": "2026-09-26T11:26:54.621Z",
+      "used": true,
+      "used_at": "2026-09-26T11:17:08.223Z",
+      "used_by_endpoint_id": "ep_tg_bot_b_900432389"
+    }
+  },
+  "presence": {
+    "ep_web_usr_mui67m5v_9e05503d_25c86d": {
+      "endpoint_id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "status": "online",
+      "last_seen_at": "2026-09-26T09:12:14.035Z"
+    },
+    "ep_web_usr_mui7zndc_0434bd33_2ac3cf": {
+      "endpoint_id": "ep_web_usr_mui7zndc_0434bd33_2ac3cf",
+      "status": "online",
+      "last_seen_at": "2026-09-26T10:01:31.920Z"
+    },
+    "ep_web_usr_beta_02_b86dd8": {
+      "endpoint_id": "ep_web_usr_beta_02_b86dd8",
+      "status": "online",
+      "last_seen_at": "2026-09-26T11:08:56.855Z"
+    },
+    "ep_web_usr_alpha_01_ac59a1": {
+      "endpoint_id": "ep_web_usr_alpha_01_ac59a1",
+      "status": "online",
+      "last_seen_at": "2026-09-26T11:17:20.012Z"
+    },
+    "ep_tg_bot_b_900432389": {
+      "endpoint_id": "ep_tg_bot_b_900432389",
+      "status": "online",
+      "last_seen_at": "2026-09-26T11:17:20.010Z"
+    }
+  },
+  "events": [
+    {
+      "id": "evt_1790421440013_5fmrx",
+      "timestamp": "2026-09-26T11:17:20.013Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790421440012_f12cb1",
+      "message_id": "msg_1790421440011_34875e48",
+      "endpoint_id": "ep_web_usr_alpha_01_ac59a1",
+      "details": {
+        "external_message_id": "web_ack_1790421440013"
+      }
+    },
+    {
+      "id": "evt_1790421440012_fupzp",
+      "timestamp": "2026-09-26T11:17:20.012Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790421440012_f12cb1",
+      "message_id": "msg_1790421440011_34875e48",
+      "endpoint_id": "ep_web_usr_alpha_01_ac59a1",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790421440012_qt003",
+      "timestamp": "2026-09-26T11:17:20.012Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790421440011_34875e48",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790421440012_nmt48",
+      "timestamp": "2026-09-26T11:17:20.012Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790421440011_34875e48",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "conversation_id": "conv_1790421440011_ff559b",
+        "content_type": "text",
+        "text_length": 19
+      }
+    },
+    {
+      "id": "evt_1790421440009_jdlzu",
+      "timestamp": "2026-09-26T11:17:20.009Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 1000000,
+        "text_snippet": "Привет из Telegram!"
+      }
+    },
+    {
+      "id": "evt_1790421428223_v9ru5",
+      "timestamp": "2026-09-26T11:17:08.223Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_tg_bot_b_900432389",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T11:17:08.223Z"
+      }
+    },
+    {
+      "id": "evt_1790421428223_xri4f",
+      "timestamp": "2026-09-26T11:17:08.223Z",
+      "type": "PAIRING_COMPLETED",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "endpoint_id": "ep_tg_bot_b_900432389",
+      "details": {
+        "code": "MH-6P6N7"
+      }
+    },
+    {
+      "id": "evt_1790421428222_rx8wf",
+      "timestamp": "2026-09-26T11:17:08.222Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 999999,
+        "text_snippet": "/start MH-6P6N7"
+      }
+    },
+    {
+      "id": "evt_1790421414621_qvwo6",
+      "timestamp": "2026-09-26T11:16:54.621Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "code": "MH-6P6N7",
+        "expires_at": "2026-09-26T11:26:54.621Z"
+      }
+    },
+    {
+      "id": "evt_1790421155517_9qr6t",
+      "timestamp": "2026-09-26T11:12:35.517Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 965830117,
+        "text_snippet": "/link MH-8L4MX"
+      }
+    },
+    {
+      "id": "evt_1790421155439_tm2z9",
+      "timestamp": "2026-09-26T11:12:35.439Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 965830116,
+        "text_snippet": "/link MH-VLJLT"
+      }
+    },
+    {
+      "id": "evt_1790421013562_48irv",
+      "timestamp": "2026-09-26T11:10:13.562Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-JLJCQ",
+        "expires_at": "2026-09-26T11:20:13.562Z"
+      }
+    },
+    {
+      "id": "evt_1790420944629_hhxsc",
+      "timestamp": "2026-09-26T11:09:04.629Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_usr_alpha_01_ac59a1",
+      "details": {
+        "type": "web",
+        "display_name": "Alex Rivera (User A) Web"
+      }
+    },
+    {
+      "id": "evt_1790420936856_zd126",
+      "timestamp": "2026-09-26T11:08:56.856Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420936855_215c63",
+      "message_id": "msg_1790420936855_093fca9e",
+      "endpoint_id": "ep_web_usr_beta_02_b86dd8",
+      "details": {
+        "external_message_id": "web_ack_1790420936855"
+      }
+    },
+    {
+      "id": "evt_1790420936855_7l154",
+      "timestamp": "2026-09-26T11:08:56.855Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420936855_215c63",
+      "message_id": "msg_1790420936855_093fca9e",
+      "endpoint_id": "ep_web_usr_beta_02_b86dd8",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420936855_4amxq",
+      "timestamp": "2026-09-26T11:08:56.855Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420936855_093fca9e",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420936855_8ahpr",
+      "timestamp": "2026-09-26T11:08:56.855Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420936855_093fca9e",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790420934834_neegj",
+      "timestamp": "2026-09-26T11:08:54.834Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88003",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790420934772_okdc2",
+      "timestamp": "2026-09-26T11:08:54.772Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88002",
+        "bot_id": "bot_b"
+      }
+    },
+    {
+      "id": "evt_1790420934709_w4ap2",
+      "timestamp": "2026-09-26T11:08:54.709Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-EPLXB",
+        "expires_at": "2026-09-26T11:18:54.709Z"
+      }
+    },
+    {
+      "id": "evt_1790420934640_j08kz",
+      "timestamp": "2026-09-26T11:08:54.640Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88001",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790420934574_80ff5",
+      "timestamp": "2026-09-26T11:08:54.574Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-82Y7L",
+        "expires_at": "2026-09-26T11:18:54.574Z"
+      }
+    },
+    {
+      "id": "evt_1790420221373_s075p",
+      "timestamp": "2026-09-26T10:57:01.373Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-8L4MX",
+        "expires_at": "2026-09-26T11:07:01.373Z"
+      }
+    },
+    {
+      "id": "evt_1790420216588_npwhm",
+      "timestamp": "2026-09-26T10:56:56.588Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_beta_02",
+      "endpoint_id": "ep_web_usr_beta_02_b86dd8",
+      "details": {
+        "type": "web",
+        "display_name": "Sam Chen (User B) Web"
+      }
+    },
+    {
+      "id": "evt_1790420207466_m1t5c",
+      "timestamp": "2026-09-26T10:56:47.466Z",
+      "type": "ENDPOINT_DISCONNECTED",
+      "user_id": "usr_beta_02",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "action": "ENDPOINT_UNLINKED"
+      }
+    },
+    {
+      "id": "evt_1790420204668_ft87g",
+      "timestamp": "2026-09-26T10:56:44.669Z",
+      "type": "ENDPOINT_DISCONNECTED",
+      "user_id": "usr_beta_02",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "action": "ENDPOINT_UNLINKED"
+      }
+    },
+    {
+      "id": "evt_1790420194195_w6cv2",
+      "timestamp": "2026-09-26T10:56:34.195Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790420194150_69a7e3",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790420194150_knroc",
+      "timestamp": "2026-09-26T10:56:34.150Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420194150_69a7e3",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790420194150_8nyfp",
+      "timestamp": "2026-09-26T10:56:34.150Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420194150_4c4bce",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790420194150"
+      }
+    },
+    {
+      "id": "evt_1790420194150_g1sjh",
+      "timestamp": "2026-09-26T10:56:34.150Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420194150_4c4bce",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420194150_uroek",
+      "timestamp": "2026-09-26T10:56:34.150Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420194150_4j8hi",
+      "timestamp": "2026-09-26T10:56:34.150Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420194149_9f05b7e8",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790420186682_txv03",
+      "timestamp": "2026-09-26T10:56:26.682Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790420186522_bdfd8a",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790420186527_hhczq",
+      "timestamp": "2026-09-26T10:56:26.527Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186522_2y6gt",
+      "timestamp": "2026-09-26T10:56:26.522Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420186522_bdfd8a",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790420186522_ozcej",
+      "timestamp": "2026-09-26T10:56:26.522Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420186522_b40fba",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790420186522"
+      }
+    },
+    {
+      "id": "evt_1790420186522_ilqtj",
+      "timestamp": "2026-09-26T10:56:26.522Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420186522_b40fba",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420186522_ik0a5",
+      "timestamp": "2026-09-26T10:56:26.522Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420186522_q0b8r",
+      "timestamp": "2026-09-26T10:56:26.522Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420186522_bcfa2318",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790420186519_ql92n",
+      "timestamp": "2026-09-26T10:56:26.519Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186504_kifg8",
+      "timestamp": "2026-09-26T10:56:26.504Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186503_8bfdk",
+      "timestamp": "2026-09-26T10:56:26.503Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186502_l4uft",
+      "timestamp": "2026-09-26T10:56:26.502Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186502_6c5xm",
+      "timestamp": "2026-09-26T10:56:26.502Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186501_yehyz",
+      "timestamp": "2026-09-26T10:56:26.501Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186500_dcq6n",
+      "timestamp": "2026-09-26T10:56:26.500Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186499_l85i8",
+      "timestamp": "2026-09-26T10:56:26.499Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186499_02i2a",
+      "timestamp": "2026-09-26T10:56:26.499Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "UNLINK_UNOWNED_ENDPOINT_ATTEMPT"
+      }
+    },
+    {
+      "id": "evt_1790420186498_tlnm4",
+      "timestamp": "2026-09-26T10:56:26.498Z",
+      "type": "ENDPOINT_DISCONNECTED",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "action": "ENDPOINT_UNLINKED"
+      }
+    },
+    {
+      "id": "evt_1790420186497_sq2ul",
+      "timestamp": "2026-09-26T10:56:26.497Z",
+      "type": "ENDPOINT_DISCONNECTED",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "action": "ENDPOINT_UNLINKED"
+      }
+    },
+    {
+      "id": "evt_1790420147352_8e605",
+      "timestamp": "2026-09-26T10:55:47.352Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790420147012_68dc5f",
+      "message_id": "msg_1790420147011_2b629742",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790420147012_mxnhg",
+      "timestamp": "2026-09-26T10:55:47.012Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420147012_68dc5f",
+      "message_id": "msg_1790420147011_2b629742",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790420147012_sl062",
+      "timestamp": "2026-09-26T10:55:47.012Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420147011_683848",
+      "message_id": "msg_1790420147011_2b629742",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790420147012"
+      }
+    },
+    {
+      "id": "evt_1790420147011_qmbyz",
+      "timestamp": "2026-09-26T10:55:47.011Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420147011_683848",
+      "message_id": "msg_1790420147011_2b629742",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420147011_sda5y",
+      "timestamp": "2026-09-26T10:55:47.011Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420147011_2b629742",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420147011_o52o6",
+      "timestamp": "2026-09-26T10:55:47.011Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420147011_2b629742",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790420064755_rkbj5",
+      "timestamp": "2026-09-26T10:54:24.755Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "details": {
+        "code": "MH-VLJLT",
+        "expires_at": "2026-09-26T11:04:24.755Z"
+      }
+    },
+    {
+      "id": "evt_1790420030918_gwfv8",
+      "timestamp": "2026-09-26T10:53:50.918Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790420030882_bc3e9f",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790420030882_i0t0n",
+      "timestamp": "2026-09-26T10:53:50.882Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420030882_bc3e9f",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790420030882_o5847",
+      "timestamp": "2026-09-26T10:53:50.882Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420030881_b1e57a",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790420030881"
+      }
+    },
+    {
+      "id": "evt_1790420030881_9h8ey",
+      "timestamp": "2026-09-26T10:53:50.881Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420030881_b1e57a",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420030881_nqcw5",
+      "timestamp": "2026-09-26T10:53:50.881Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420030881_6bo28",
+      "timestamp": "2026-09-26T10:53:50.881Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420030881_719c7ef9",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790420028917_2yyc5",
+      "timestamp": "2026-09-26T10:53:48.917Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790420028876_b5577a",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790420028876_31mrk",
+      "timestamp": "2026-09-26T10:53:48.876Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420028876_b5577a",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790420028876_1onbv",
+      "timestamp": "2026-09-26T10:53:48.876Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790420028875_9c4054",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790420028876"
+      }
+    },
+    {
+      "id": "evt_1790420028875_jx0se",
+      "timestamp": "2026-09-26T10:53:48.875Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790420028875_9c4054",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790420028875_lc1bj",
+      "timestamp": "2026-09-26T10:53:48.875Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790420028875_kv5on",
+      "timestamp": "2026-09-26T10:53:48.875Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790420028875_03c3edc4",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 45
+      }
+    },
+    {
+      "id": "evt_1790420028874_ehzl0",
+      "timestamp": "2026-09-26T10:53:48.874Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_a",
+        "chat_id": "111111",
+        "update_id": 88003,
+        "text_snippet": "Привет от Bot A через универса"
+      }
+    },
+    {
+      "id": "evt_1790420028723_qgup1",
+      "timestamp": "2026-09-26T10:53:48.723Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T10:53:48.723Z"
+      }
+    },
+    {
+      "id": "evt_1790420028723_5jovb",
+      "timestamp": "2026-09-26T10:53:48.723Z",
+      "type": "PAIRING_COMPLETED",
+      "user_id": "usr_beta_02",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "code": "MH-YGPSU"
+      }
+    },
+    {
+      "id": "evt_1790420028723_i2d5v",
+      "timestamp": "2026-09-26T10:53:48.723Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "222222",
+        "update_id": 88002,
+        "text_snippet": "/link MH-YGPSU"
+      }
+    },
+    {
+      "id": "evt_1790420028630_i55f0",
+      "timestamp": "2026-09-26T10:53:48.630Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-YGPSU",
+        "expires_at": "2026-09-26T11:03:48.630Z"
+      }
+    },
+    {
+      "id": "evt_1790420028433_1hh0g",
+      "timestamp": "2026-09-26T10:53:48.433Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T10:53:48.433Z"
+      }
+    },
+    {
+      "id": "evt_1790420028433_ytq5o",
+      "timestamp": "2026-09-26T10:53:48.433Z",
+      "type": "PAIRING_COMPLETED",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "code": "MH-TK68S"
+      }
+    },
+    {
+      "id": "evt_1790420028433_l5bk8",
+      "timestamp": "2026-09-26T10:53:48.433Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_a",
+        "chat_id": "111111",
+        "update_id": 88001,
+        "text_snippet": "/link MH-TK68S"
+      }
+    },
+    {
+      "id": "evt_1790420028348_0rk7q",
+      "timestamp": "2026-09-26T10:53:48.348Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-TK68S",
+        "expires_at": "2026-09-26T11:03:48.347Z"
+      }
+    },
+    {
+      "id": "evt_1790419443776_ef85f",
+      "timestamp": "2026-09-26T10:44:03.776Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 965830115,
+        "text_snippet": "/link MH-XBH6H"
+      }
+    },
+    {
+      "id": "evt_1790419443732_j7u8r",
+      "timestamp": "2026-09-26T10:44:03.732Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 965830114,
+        "text_snippet": "/link MH-85D7N"
+      }
+    },
+    {
+      "id": "evt_1790419443685_qtmxl",
+      "timestamp": "2026-09-26T10:44:03.685Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "900432389",
+        "update_id": 965830113,
+        "text_snippet": "/start"
+      }
+    },
+    {
+      "id": "evt_1790419191701_ovmrj",
+      "timestamp": "2026-09-26T10:39:51.701Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790419191633_5be126",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790419191633_i8rd0",
+      "timestamp": "2026-09-26T10:39:51.633Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790419191633_5be126",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790419191633_tgvue",
+      "timestamp": "2026-09-26T10:39:51.633Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790419191632_616006",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790419191632"
+      }
+    },
+    {
+      "id": "evt_1790419191632_c0lhn",
+      "timestamp": "2026-09-26T10:39:51.632Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790419191632_616006",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790419191632_xex3f",
+      "timestamp": "2026-09-26T10:39:51.632Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790419191632_5cjjc",
+      "timestamp": "2026-09-26T10:39:51.632Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790419191632_3f787bd9",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790419189657_nul0f",
+      "timestamp": "2026-09-26T10:39:49.657Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88003",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790419189576_264ia",
+      "timestamp": "2026-09-26T10:39:49.576Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88002",
+        "bot_id": "bot_b"
+      }
+    },
+    {
+      "id": "evt_1790419189228_nxfsd",
+      "timestamp": "2026-09-26T10:39:49.228Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-VA774",
+        "expires_at": "2026-09-26T10:49:49.228Z"
+      }
+    },
+    {
+      "id": "evt_1790419189148_5m52j",
+      "timestamp": "2026-09-26T10:39:49.148Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88001",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790419188931_hkday",
+      "timestamp": "2026-09-26T10:39:48.931Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-QGTZF",
+        "expires_at": "2026-09-26T10:49:48.931Z"
+      }
+    },
+    {
+      "id": "evt_1790418739775_37ajx",
+      "timestamp": "2026-09-26T10:32:19.775Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790418739720_2864b2",
+      "message_id": "msg_1790418739720_525f83b1",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790418739720_khpij",
+      "timestamp": "2026-09-26T10:32:19.720Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418739720_2864b2",
+      "message_id": "msg_1790418739720_525f83b1",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790418739720_g3gcf",
+      "timestamp": "2026-09-26T10:32:19.720Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790418739720_6a0bea",
+      "message_id": "msg_1790418739720_525f83b1",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790418739720"
+      }
+    },
+    {
+      "id": "evt_1790418739720_xs74a",
+      "timestamp": "2026-09-26T10:32:19.720Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418739720_6a0bea",
+      "message_id": "msg_1790418739720_525f83b1",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790418739720_d2qin",
+      "timestamp": "2026-09-26T10:32:19.720Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790418739720_525f83b1",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790418739720_twhh3",
+      "timestamp": "2026-09-26T10:32:19.720Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790418739720_525f83b1",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790418691192_cdatm",
+      "timestamp": "2026-09-26T10:31:31.192Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790418691142_12df4b",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790418691142_bp7yk",
+      "timestamp": "2026-09-26T10:31:31.142Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418691142_12df4b",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790418691142_jltir",
+      "timestamp": "2026-09-26T10:31:31.142Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790418691141_cd147f",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790418691141"
+      }
+    },
+    {
+      "id": "evt_1790418691141_lul9p",
+      "timestamp": "2026-09-26T10:31:31.141Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418691141_cd147f",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790418691141_5csm4",
+      "timestamp": "2026-09-26T10:31:31.141Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790418691141_63ghn",
+      "timestamp": "2026-09-26T10:31:31.141Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790418691141_4afb70e0",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790418688432_kmj5x",
+      "timestamp": "2026-09-26T10:31:28.432Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88003",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790418688354_wuyv3",
+      "timestamp": "2026-09-26T10:31:28.354Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88002",
+        "bot_id": "bot_b"
+      }
+    },
+    {
+      "id": "evt_1790418688262_qh19g",
+      "timestamp": "2026-09-26T10:31:28.262Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-J8AFR",
+        "expires_at": "2026-09-26T10:41:28.262Z"
+      }
+    },
+    {
+      "id": "evt_1790418688190_s6gcs",
+      "timestamp": "2026-09-26T10:31:28.190Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88001",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790418687969_optnb",
+      "timestamp": "2026-09-26T10:31:27.969Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-N8ULU",
+        "expires_at": "2026-09-26T10:41:27.969Z"
+      }
+    },
+    {
+      "id": "evt_1790418660788_ze4fa",
+      "timestamp": "2026-09-26T10:31:00.788Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790418660703_4fa893",
+      "message_id": "msg_1790418660702_297eb4be",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790418660703_f1ots",
+      "timestamp": "2026-09-26T10:31:00.703Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418660703_4fa893",
+      "message_id": "msg_1790418660702_297eb4be",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790418660703_y1byq",
+      "timestamp": "2026-09-26T10:31:00.703Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790418660703_57ab4e",
+      "message_id": "msg_1790418660702_297eb4be",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790418660703"
+      }
+    },
+    {
+      "id": "evt_1790418660703_gz3jb",
+      "timestamp": "2026-09-26T10:31:00.703Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790418660703_57ab4e",
+      "message_id": "msg_1790418660702_297eb4be",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790418660703_qbs67",
+      "timestamp": "2026-09-26T10:31:00.703Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790418660702_297eb4be",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790418660703_mazfc",
+      "timestamp": "2026-09-26T10:31:00.703Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790418660702_297eb4be",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790418655499_67hed",
+      "timestamp": "2026-09-26T10:30:55.499Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88003",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790418655426_muof6",
+      "timestamp": "2026-09-26T10:30:55.426Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88002",
+        "bot_id": "bot_b"
+      }
+    },
+    {
+      "id": "evt_1790418655305_3z2wt",
+      "timestamp": "2026-09-26T10:30:55.305Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-C6X8F",
+        "expires_at": "2026-09-26T10:40:55.305Z"
+      }
+    },
+    {
+      "id": "evt_1790418655218_k3rxf",
+      "timestamp": "2026-09-26T10:30:55.218Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "note": "Duplicate Telegram update skipped: 88001",
+        "bot_id": "bot_a"
+      }
+    },
+    {
+      "id": "evt_1790418655139_z7mc5",
+      "timestamp": "2026-09-26T10:30:55.139Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-9SAAN",
+        "expires_at": "2026-09-26T10:40:55.139Z"
+      }
+    },
+    {
+      "id": "evt_1790417092550_6y3w7",
+      "timestamp": "2026-09-26T10:04:52.550Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "details": {
+        "code": "MH-XBH6H",
+        "expires_at": "2026-09-26T10:14:52.550Z"
+      }
+    },
+    {
+      "id": "evt_1790417006821_wc4yv",
+      "timestamp": "2026-09-26T10:03:26.821Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790417006761_c2b512",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790417006762_szpzh",
+      "timestamp": "2026-09-26T10:03:26.762Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790417006761_c2b512",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790417006761_1fy2n",
+      "timestamp": "2026-09-26T10:03:26.761Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790417006761_40578b",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790417006761"
+      }
+    },
+    {
+      "id": "evt_1790417006761_yuzwl",
+      "timestamp": "2026-09-26T10:03:26.761Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790417006761_40578b",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790417006761_enefe",
+      "timestamp": "2026-09-26T10:03:26.761Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790417006761_7ibza",
+      "timestamp": "2026-09-26T10:03:26.761Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790417006761_8e879cfa",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790416998442_8qltt",
+      "timestamp": "2026-09-26T10:03:18.442Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790416998361_9ee75d",
+      "message_id": "msg_1790416998360_29f63747",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790416998361_n1o3e",
+      "timestamp": "2026-09-26T10:03:18.361Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790416998361_9ee75d",
+      "message_id": "msg_1790416998360_29f63747",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790416998361_4p0su",
+      "timestamp": "2026-09-26T10:03:18.361Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790416998361_5f88f2",
+      "message_id": "msg_1790416998360_29f63747",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790416998361"
+      }
+    },
+    {
+      "id": "evt_1790416998361_q2c3i",
+      "timestamp": "2026-09-26T10:03:18.361Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790416998361_5f88f2",
+      "message_id": "msg_1790416998360_29f63747",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790416998361_98pwe",
+      "timestamp": "2026-09-26T10:03:18.361Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790416998360_29f63747",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790416998361_cwv9g",
+      "timestamp": "2026-09-26T10:03:18.361Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790416998360_29f63747",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 42
+      }
+    },
+    {
+      "id": "evt_1790416991033_dhff3",
+      "timestamp": "2026-09-26T10:03:11.033Z",
+      "type": "DELIVERY_FAILED",
+      "delivery_id": "delv_1790416990985_570b0a",
+      "message_id": "msg_1790416990983_d1460011",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "error": "Telegram API [sendMessage] failed: Bad Request: chat not found"
+      }
+    },
+    {
+      "id": "evt_1790416990985_py0td",
+      "timestamp": "2026-09-26T10:03:10.985Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790416990985_570b0a",
+      "message_id": "msg_1790416990983_d1460011",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "adapter_type": "telegram"
+      }
+    },
+    {
+      "id": "evt_1790416990985_9dv3z",
+      "timestamp": "2026-09-26T10:03:10.985Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790416990984_1aa865",
+      "message_id": "msg_1790416990983_d1460011",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790416990984"
+      }
+    },
+    {
+      "id": "evt_1790416990984_kd8ha",
+      "timestamp": "2026-09-26T10:03:10.984Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790416990984_1aa865",
+      "message_id": "msg_1790416990983_d1460011",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790416990984_and9j",
+      "timestamp": "2026-09-26T10:03:10.984Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790416990983_d1460011",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790416990984_d5679",
+      "timestamp": "2026-09-26T10:03:10.984Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790416990983_d1460011",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 45
+      }
+    },
+    {
+      "id": "evt_1790416990983_rw1wf",
+      "timestamp": "2026-09-26T10:03:10.983Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_a",
+        "chat_id": "111111",
+        "update_id": 88003,
+        "text_snippet": "Привет от Bot A через универса"
+      }
+    },
+    {
+      "id": "evt_1790416990859_ld665",
+      "timestamp": "2026-09-26T10:03:10.859Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T10:03:10.859Z"
+      }
+    },
+    {
+      "id": "evt_1790416990859_pwze3",
+      "timestamp": "2026-09-26T10:03:10.859Z",
+      "type": "PAIRING_COMPLETED",
+      "user_id": "usr_beta_02",
+      "endpoint_id": "ep_tg_bot_b_222222",
+      "details": {
+        "code": "MH-7LKB2"
+      }
+    },
+    {
+      "id": "evt_1790416990859_263lb",
+      "timestamp": "2026-09-26T10:03:10.859Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_b",
+        "chat_id": "222222",
+        "update_id": 88002,
+        "text_snippet": "/link MH-7LKB2"
+      }
+    },
+    {
+      "id": "evt_1790416990769_3ilty",
+      "timestamp": "2026-09-26T10:03:10.769Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_beta_02",
+      "details": {
+        "code": "MH-7LKB2",
+        "expires_at": "2026-09-26T10:13:10.769Z"
+      }
+    },
+    {
+      "id": "evt_1790416990620_tednl",
+      "timestamp": "2026-09-26T10:03:10.620Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T10:03:10.620Z"
+      }
+    },
+    {
+      "id": "evt_1790416990620_a4yae",
+      "timestamp": "2026-09-26T10:03:10.620Z",
+      "type": "PAIRING_COMPLETED",
+      "user_id": "usr_alpha_01",
+      "endpoint_id": "ep_tg_bot_a_111111",
+      "details": {
+        "code": "MH-GYG9H"
+      }
+    },
+    {
+      "id": "evt_1790416990620_5144j",
+      "timestamp": "2026-09-26T10:03:10.620Z",
+      "type": "MESSAGE_RECEIVED",
+      "details": {
+        "bot_id": "bot_a",
+        "chat_id": "111111",
+        "update_id": 88001,
+        "text_snippet": "/link MH-GYG9H"
+      }
+    },
+    {
+      "id": "evt_1790416990534_nqcsm",
+      "timestamp": "2026-09-26T10:03:10.534Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "code": "MH-GYG9H",
+        "expires_at": "2026-09-26T10:13:10.534Z"
+      }
+    },
+    {
+      "id": "evt_1790416902078_ltq33",
+      "timestamp": "2026-09-26T10:01:42.078Z",
+      "type": "PAIRING_CREATED",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "code": "MH-85D7N",
+        "expires_at": "2026-09-26T10:11:42.078Z"
+      }
+    },
+    {
+      "id": "evt_1790416892132_to0ss",
+      "timestamp": "2026-09-26T10:01:32.132Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "action": "UNAUTHORIZED_CONVERSATION_ACCESS",
+        "conversation_id": "conv_1790413912120_07bb3d"
+      }
+    },
+    {
+      "id": "evt_1790416891920_nku8h",
+      "timestamp": "2026-09-26T10:01:31.920Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "endpoint_id": "ep_web_usr_mui7zndc_0434bd33_2ac3cf",
+      "details": {
+        "type": "web",
+        "display_name": "Арсений Web"
+      }
+    },
+    {
+      "id": "evt_1790416891920_f1wvy",
+      "timestamp": "2026-09-26T10:01:31.920Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_mui7zndc_0434bd33",
+      "details": {
+        "action": "IDENTITY_CREATED",
+        "display_name": "Арсений"
+      }
+    },
+    {
+      "id": "evt_1790415880641_zif5k",
+      "timestamp": "2026-09-26T09:44:40.641Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790415880641_cd1d21",
+      "message_id": "msg_1790415880640_e73383b2",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790415880641"
+      }
+    },
+    {
+      "id": "evt_1790415880641_33mgv",
+      "timestamp": "2026-09-26T09:44:40.641Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790415880641_cd1d21",
+      "message_id": "msg_1790415880640_e73383b2",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790415880641_nw38o",
+      "timestamp": "2026-09-26T09:44:40.641Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790415880640_e73383b2",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790415880641_5tlu0",
+      "timestamp": "2026-09-26T09:44:40.641Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790415880640_e73383b2",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790415868194_tktel",
+      "timestamp": "2026-09-26T09:44:28.194Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790415868194_b5f29c",
+      "message_id": "msg_1790415868193_9280f446",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790415868194"
+      }
+    },
+    {
+      "id": "evt_1790415868194_tlper",
+      "timestamp": "2026-09-26T09:44:28.194Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790415868194_b5f29c",
+      "message_id": "msg_1790415868193_9280f446",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790415868194_mtx8o",
+      "timestamp": "2026-09-26T09:44:28.194Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790415868193_9280f446",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790415868194_m908u",
+      "timestamp": "2026-09-26T09:44:28.194Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790415868193_9280f446",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790413995974_fg1l5",
+      "timestamp": "2026-09-26T09:13:15.974Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790413995973_cd2624",
+      "message_id": "msg_1790413995973_5625bcb1",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "external_message_id": "web_ack_1790413995974"
+      }
+    },
+    {
+      "id": "evt_1790413995974_37rgn",
+      "timestamp": "2026-09-26T09:13:15.974Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413995973_cd2624",
+      "message_id": "msg_1790413995973_5625bcb1",
+      "endpoint_id": "ep_web_user_a",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790413995973_lh7ju",
+      "timestamp": "2026-09-26T09:13:15.973Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790413995973_5625bcb1",
+      "user_id": "usr_beta_02",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790413995973_nxldx",
+      "timestamp": "2026-09-26T09:13:15.973Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790413995973_5625bcb1",
+      "user_id": "usr_beta_02",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790413962530_3risq",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790413644685_85efc9",
+      "message_id": "msg_1790413644685_32bd3774",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790413962530"
+      }
+    },
+    {
+      "id": "evt_1790413962530_8n3oe",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413644685_85efc9",
+      "message_id": "msg_1790413644685_32bd3774",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790413962530_3klkk",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790413623853_857a77",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790413962530"
+      }
+    },
+    {
+      "id": "evt_1790413962530_dil2x",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413623853_857a77",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790413962530_h9m6m",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790412768744_5838b3",
+      "message_id": "msg_1790412768743_975399ba",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "external_message_id": "web_ack_1790413962530"
+      }
+    },
+    {
+      "id": "evt_1790413962530_ae3wy",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790412768744_5838b3",
+      "message_id": "msg_1790412768743_975399ba",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790413962530_7tjcu",
+      "timestamp": "2026-09-26T09:12:42.530Z",
+      "type": "ENDPOINT_CONNECTED",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "status": "online",
+        "last_seen_at": "2026-09-26T09:12:42.529Z"
+      }
+    },
+    {
+      "id": "evt_1790413934036_ytgrj",
+      "timestamp": "2026-09-26T09:12:14.036Z",
+      "type": "DELIVERY_SUCCESS",
+      "delivery_id": "delv_1790413934034_257ee7",
+      "message_id": "msg_1790413934034_5c89ee39",
+      "endpoint_id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "details": {
+        "external_message_id": "web_ack_1790413934035"
+      }
+    },
+    {
+      "id": "evt_1790413934035_9is2g",
+      "timestamp": "2026-09-26T09:12:14.035Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413934034_257ee7",
+      "message_id": "msg_1790413934034_5c89ee39",
+      "endpoint_id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "details": {
+        "adapter_type": "web"
+      }
+    },
+    {
+      "id": "evt_1790413934034_86tno",
+      "timestamp": "2026-09-26T09:12:14.034Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790413934034_5c89ee39",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790413934034_djsgs",
+      "timestamp": "2026-09-26T09:12:14.034Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790413934034_5c89ee39",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_1790413912120_07bb3d",
+        "content_type": "text",
+        "text_length": 6
+      }
+    },
+    {
+      "id": "evt_1790413904718_z1dsj",
+      "timestamp": "2026-09-26T09:11:44.718Z",
+      "type": "SECURITY_VIOLATION",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "details": {
+        "action": "UNAUTHORIZED_CONVERSATION_ACCESS",
+        "conversation_id": "conv_alpha_beta"
+      }
+    },
+    {
+      "id": "evt_1790413904372_g1r98",
+      "timestamp": "2026-09-26T09:11:44.372Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "endpoint_id": "ep_web_usr_mui67m5v_9e05503d_25c86d",
+      "details": {
+        "type": "web",
+        "display_name": "Ольга Web"
+      }
+    },
+    {
+      "id": "evt_1790413904371_amkej",
+      "timestamp": "2026-09-26T09:11:44.371Z",
+      "type": "ENDPOINT_CONNECTED",
+      "user_id": "usr_mui67m5v_9e05503d",
+      "details": {
+        "action": "IDENTITY_CREATED",
+        "display_name": "Ольга"
+      }
+    },
+    {
+      "id": "evt_1790413644685_ljaeh",
+      "timestamp": "2026-09-26T09:07:24.685Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413644685_85efc9",
+      "message_id": "msg_1790413644685_32bd3774",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "note": "Endpoint is offline, delivery queued as pending"
+      }
+    },
+    {
+      "id": "evt_1790413644685_a6tln",
+      "timestamp": "2026-09-26T09:07:24.685Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790413644685_32bd3774",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790413644685_vdhg1",
+      "timestamp": "2026-09-26T09:07:24.685Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790413644685_32bd3774",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 16
+      }
+    },
+    {
+      "id": "evt_1790413623853_uryrw",
+      "timestamp": "2026-09-26T09:07:03.853Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790413623853_857a77",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "note": "Endpoint is offline, delivery queued as pending"
+      }
+    },
+    {
+      "id": "evt_1790413623853_4zepq",
+      "timestamp": "2026-09-26T09:07:03.853Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790413623853_8h1xo",
+      "timestamp": "2026-09-26T09:07:03.853Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790413623852_6e9dc3a6",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 16
+      }
+    },
+    {
+      "id": "evt_1790412768744_c1bs5",
+      "timestamp": "2026-09-26T08:52:48.744Z",
+      "type": "DELIVERY_STARTED",
+      "delivery_id": "delv_1790412768744_5838b3",
+      "message_id": "msg_1790412768743_975399ba",
+      "endpoint_id": "ep_web_user_b",
+      "details": {
+        "note": "Endpoint is offline, delivery queued as pending"
+      }
+    },
+    {
+      "id": "evt_1790412768744_hw2gk",
+      "timestamp": "2026-09-26T08:52:48.744Z",
+      "type": "ROUTING_STARTED",
+      "message_id": "msg_1790412768743_975399ba",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "recipients_count": 1,
+        "required_capabilities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "evt_1790412768743_lvyif",
+      "timestamp": "2026-09-26T08:52:48.743Z",
+      "type": "MESSAGE_CREATED",
+      "message_id": "msg_1790412768743_975399ba",
+      "user_id": "usr_alpha_01",
+      "details": {
+        "conversation_id": "conv_alpha_beta",
+        "content_type": "text",
+        "text_length": 6
+      }
+    }
+  ]
+}
